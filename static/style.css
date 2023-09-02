@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#navbar{
+    background-color: black;
+    padding: 13px 14px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+#navbar li{
+    list-style: none;
+
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 3px 4px;
+    color: white;
+    
+}
+
+#introSection{
+
+    font-size: large;
+    color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: center / cover no-repeat url("/static/dance.jpg");
+    height: 300px;
+    background-color: red;
+
+}
+#sponsorSection{
+    height: 300px;
+    background-color: red;
+}
+
+#sponsorsSection h3{
+    height: 400px;
+    background-color: mediumseagreen;
+    text-align: center;
+    margin-top: 70px;
+
+}
+
+#sponsors{
+    height: 180px;
+    max-width: 700px;
+    margin: auto;
+
+}
+.spimage{
+     height: 90%;
+     margin: 20px;
+}
+
+missionSection{
+    height: 300px;
+    background-color: blueviolet;
+}
+
+#missionSection h3{
+    height: 300px;
+    background-color: mediumseagreen;
+    text-align: center;
+
+
+}
+
+
+
+#footer {
+    height: 100px;
+    background-color: black;
+    color: white;
+    align-items: center;
+
+}

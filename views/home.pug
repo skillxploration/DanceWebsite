@@ -1,0 +1,18 @@
+extends base.pug
+
+block style 
+  style 
+    include ../static/style.css 
+
+block content 
+  
+  section#introSection
+    div  Welcome to dance class
+  section#sponsorsSection
+    h3 our sponsors 
+    div#sponsors
+      img(src="/static/apple.png", alt="sponsor Image" class ="spimage")
+      img(src="/static/apple.png", alt="sponsor Image" class ="spimage")
+      img(src="/static/apple.png", alt="sponsor Image" class ="spimage")
+    div#logo
+      img(src="/static/img/apple.png")

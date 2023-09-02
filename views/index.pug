@@ -1,0 +1,30 @@
+extends base.pug
+block scripts
+  script(src='/static/index.js')
+
+block style 
+  style 
+    include ../static/style.css 
+
+block content 
+  nav#navbar 
+    ul
+      div#logo
+        img(src="/static/img/logo.png")
+        | HDA 
+      li #[a(href = "/") Home]  
+      li #[a(href = "/") About]
+      li #[a(href = "/contact") Contact us]
+      li #[a(href = "/") Services]
+      li #[a(href = "/") class info]
+
+  section#introSection
+    div  Welcome to dance class
+  section#sponsorsSection
+    h3 our sponsors 
+    div#sponsors
+      img(src="/static/apple.png", alt="sponsor Image" class ="spimage")
+      img(src="/static/apple.png", alt="sponsor Image" class ="spimage")
+      img(src="/static/apple.png", alt="sponsor Image" class ="spimage")
+    div#logo
+      img(src="/static/img/apple.png")
